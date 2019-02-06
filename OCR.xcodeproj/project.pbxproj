@@ -1,0 +1,742 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC7C05C1220AC5F50068240E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7C05C0220AC5F50068240E /* AppDelegate.swift */; };
+		CC7C05C3220AC5F50068240E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7C05C2220AC5F50068240E /* ViewController.swift */; };
+		CC7C05C6220AC5F50068240E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC7C05C4220AC5F50068240E /* Main.storyboard */; };
+		CC7C05C8220AC5F60068240E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC7C05C7220AC5F60068240E /* Assets.xcassets */; };
+		CC7C05CB220AC5F60068240E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC7C05C9220AC5F60068240E /* LaunchScreen.storyboard */; };
+		CC7C05D6220AC5F70068240E /* OCRTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7C05D5220AC5F70068240E /* OCRTests.swift */; };
+		CC7C05E1220AC5F70068240E /* OCRUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7C05E0220AC5F70068240E /* OCRUITests.swift */; };
+		CC7C05F0220AC6170068240E /* OCRImageScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7C05EE220AC6170068240E /* OCRImageScannerViewController.swift */; };
+		CC7C05F1220AC6170068240E /* OCRImageScannerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC7C05EF220AC6170068240E /* OCRImageScannerViewController.xib */; };
+		CC7C0607220AC62B0068240E /* OCRImageScannerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7C0606220AC62B0068240E /* OCRImageScannerTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CC7C05D2220AC5F70068240E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC7C05B5220AC5F50068240E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC7C05BC220AC5F50068240E;
+			remoteInfo = OCR;
+		};
+		CC7C05DD220AC5F70068240E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC7C05B5220AC5F50068240E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC7C05BC220AC5F50068240E;
+			remoteInfo = OCR;
+		};
+		CC7C0603220AC62B0068240E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC7C05B5220AC5F50068240E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC7C05BC220AC5F50068240E;
+			remoteInfo = OCR;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CC7C0611220AC62B0068240E /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CC7C05BD220AC5F50068240E /* OCR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OCR.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC7C05C0220AC5F50068240E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CC7C05C2220AC5F50068240E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CC7C05C5220AC5F50068240E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CC7C05C7220AC5F60068240E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CC7C05CA220AC5F60068240E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CC7C05CC220AC5F60068240E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC7C05D1220AC5F70068240E /* OCRTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OCRTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC7C05D5220AC5F70068240E /* OCRTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OCRTests.swift; sourceTree = "<group>"; };
+		CC7C05D7220AC5F70068240E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC7C05DC220AC5F70068240E /* OCRUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OCRUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC7C05E0220AC5F70068240E /* OCRUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OCRUITests.swift; sourceTree = "<group>"; };
+		CC7C05E2220AC5F70068240E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC7C05EE220AC6170068240E /* OCRImageScannerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OCRImageScannerViewController.swift; sourceTree = "<group>"; };
+		CC7C05EF220AC6170068240E /* OCRImageScannerViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OCRImageScannerViewController.xib; sourceTree = "<group>"; };
+		CC7C05F9220AC62B0068240E /* OCRImageScanner.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCRImageScanner.h; sourceTree = "<group>"; };
+		CC7C05FA220AC62B0068240E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC7C05FF220AC62B0068240E /* OCRImageScannerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OCRImageScannerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC7C0606220AC62B0068240E /* OCRImageScannerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OCRImageScannerTests.swift; sourceTree = "<group>"; };
+		CC7C0608220AC62B0068240E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC7C0623220ACB890068240E /* OCRImageScanner copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "OCRImageScanner copy-Info.plist"; path = "/Users/syedismailahamed/Documents/Carthage-Libs/OCR/OCRImageScanner copy-Info.plist"; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC7C05BA220AC5F50068240E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC7C05CE220AC5F70068240E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC7C05D9220AC5F70068240E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC7C05FC220AC62B0068240E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CC7C05B4220AC5F50068240E = {
+			isa = PBXGroup;
+			children = (
+				CC7C05BF220AC5F50068240E /* OCR */,
+				CC7C05D4220AC5F70068240E /* OCRTests */,
+				CC7C05DF220AC5F70068240E /* OCRUITests */,
+				CC7C05F8220AC62B0068240E /* OCRImageScanner */,
+				CC7C0605220AC62B0068240E /* OCRImageScannerTests */,
+				CC7C05BE220AC5F50068240E /* Products */,
+				CC7C0623220ACB890068240E /* OCRImageScanner copy-Info.plist */,
+			);
+			sourceTree = "<group>";
+		};
+		CC7C05BE220AC5F50068240E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC7C05BD220AC5F50068240E /* OCR.app */,
+				CC7C05D1220AC5F70068240E /* OCRTests.xctest */,
+				CC7C05DC220AC5F70068240E /* OCRUITests.xctest */,
+				CC7C05FF220AC62B0068240E /* OCRImageScannerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC7C05BF220AC5F50068240E /* OCR */ = {
+			isa = PBXGroup;
+			children = (
+				CC7C05C0220AC5F50068240E /* AppDelegate.swift */,
+				CC7C05C2220AC5F50068240E /* ViewController.swift */,
+				CC7C05C4220AC5F50068240E /* Main.storyboard */,
+				CC7C05EE220AC6170068240E /* OCRImageScannerViewController.swift */,
+				CC7C05EF220AC6170068240E /* OCRImageScannerViewController.xib */,
+				CC7C05C7220AC5F60068240E /* Assets.xcassets */,
+				CC7C05C9220AC5F60068240E /* LaunchScreen.storyboard */,
+				CC7C05CC220AC5F60068240E /* Info.plist */,
+			);
+			path = OCR;
+			sourceTree = "<group>";
+		};
+		CC7C05D4220AC5F70068240E /* OCRTests */ = {
+			isa = PBXGroup;
+			children = (
+				CC7C05D5220AC5F70068240E /* OCRTests.swift */,
+				CC7C05D7220AC5F70068240E /* Info.plist */,
+			);
+			path = OCRTests;
+			sourceTree = "<group>";
+		};
+		CC7C05DF220AC5F70068240E /* OCRUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CC7C05E0220AC5F70068240E /* OCRUITests.swift */,
+				CC7C05E2220AC5F70068240E /* Info.plist */,
+			);
+			path = OCRUITests;
+			sourceTree = "<group>";
+		};
+		CC7C05F8220AC62B0068240E /* OCRImageScanner */ = {
+			isa = PBXGroup;
+			children = (
+				CC7C05F9220AC62B0068240E /* OCRImageScanner.h */,
+				CC7C05FA220AC62B0068240E /* Info.plist */,
+			);
+			path = OCRImageScanner;
+			sourceTree = "<group>";
+		};
+		CC7C0605220AC62B0068240E /* OCRImageScannerTests */ = {
+			isa = PBXGroup;
+			children = (
+				CC7C0606220AC62B0068240E /* OCRImageScannerTests.swift */,
+				CC7C0608220AC62B0068240E /* Info.plist */,
+			);
+			path = OCRImageScannerTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC7C05BC220AC5F50068240E /* OCR */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC7C05E5220AC5F70068240E /* Build configuration list for PBXNativeTarget "OCR" */;
+			buildPhases = (
+				CC7C05B9220AC5F50068240E /* Sources */,
+				CC7C05BA220AC5F50068240E /* Frameworks */,
+				CC7C05BB220AC5F50068240E /* Resources */,
+				CC7C0611220AC62B0068240E /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OCR;
+			productName = OCR;
+			productReference = CC7C05BD220AC5F50068240E /* OCR.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CC7C05D0220AC5F70068240E /* OCRTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC7C05E8220AC5F70068240E /* Build configuration list for PBXNativeTarget "OCRTests" */;
+			buildPhases = (
+				CC7C05CD220AC5F70068240E /* Sources */,
+				CC7C05CE220AC5F70068240E /* Frameworks */,
+				CC7C05CF220AC5F70068240E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC7C05D3220AC5F70068240E /* PBXTargetDependency */,
+			);
+			name = OCRTests;
+			productName = OCRTests;
+			productReference = CC7C05D1220AC5F70068240E /* OCRTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CC7C05DB220AC5F70068240E /* OCRUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC7C05EB220AC5F70068240E /* Build configuration list for PBXNativeTarget "OCRUITests" */;
+			buildPhases = (
+				CC7C05D8220AC5F70068240E /* Sources */,
+				CC7C05D9220AC5F70068240E /* Frameworks */,
+				CC7C05DA220AC5F70068240E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC7C05DE220AC5F70068240E /* PBXTargetDependency */,
+			);
+			name = OCRUITests;
+			productName = OCRUITests;
+			productReference = CC7C05DC220AC5F70068240E /* OCRUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		CC7C05FE220AC62B0068240E /* OCRImageScannerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC7C0612220AC62B0068240E /* Build configuration list for PBXNativeTarget "OCRImageScannerTests" */;
+			buildPhases = (
+				CC7C05FB220AC62B0068240E /* Sources */,
+				CC7C05FC220AC62B0068240E /* Frameworks */,
+				CC7C05FD220AC62B0068240E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC7C0604220AC62B0068240E /* PBXTargetDependency */,
+			);
+			name = OCRImageScannerTests;
+			productName = OCRImageScannerTests;
+			productReference = CC7C05FF220AC62B0068240E /* OCRImageScannerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC7C05B5220AC5F50068240E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Syed Ismail Ahamed";
+				TargetAttributes = {
+					CC7C05BC220AC5F50068240E = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					CC7C05D0220AC5F70068240E = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = CC7C05BC220AC5F50068240E;
+					};
+					CC7C05DB220AC5F70068240E = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = CC7C05BC220AC5F50068240E;
+					};
+					CC7C05FE220AC62B0068240E = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = CC7C05BC220AC5F50068240E;
+					};
+				};
+			};
+			buildConfigurationList = CC7C05B8220AC5F50068240E /* Build configuration list for PBXProject "OCR" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CC7C05B4220AC5F50068240E;
+			productRefGroup = CC7C05BE220AC5F50068240E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC7C05BC220AC5F50068240E /* OCR */,
+				CC7C05D0220AC5F70068240E /* OCRTests */,
+				CC7C05DB220AC5F70068240E /* OCRUITests */,
+				CC7C05FE220AC62B0068240E /* OCRImageScannerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC7C05BB220AC5F50068240E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC7C05CB220AC5F60068240E /* LaunchScreen.storyboard in Resources */,
+				CC7C05C8220AC5F60068240E /* Assets.xcassets in Resources */,
+				CC7C05F1220AC6170068240E /* OCRImageScannerViewController.xib in Resources */,
+				CC7C05C6220AC5F50068240E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC7C05CF220AC5F70068240E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC7C05DA220AC5F70068240E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC7C05FD220AC62B0068240E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC7C05B9220AC5F50068240E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC7C05C3220AC5F50068240E /* ViewController.swift in Sources */,
+				CC7C05C1220AC5F50068240E /* AppDelegate.swift in Sources */,
+				CC7C05F0220AC6170068240E /* OCRImageScannerViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC7C05CD220AC5F70068240E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC7C05D6220AC5F70068240E /* OCRTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC7C05D8220AC5F70068240E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC7C05E1220AC5F70068240E /* OCRUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC7C05FB220AC62B0068240E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC7C0607220AC62B0068240E /* OCRImageScannerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CC7C05D3220AC5F70068240E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC7C05BC220AC5F50068240E /* OCR */;
+			targetProxy = CC7C05D2220AC5F70068240E /* PBXContainerItemProxy */;
+		};
+		CC7C05DE220AC5F70068240E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC7C05BC220AC5F50068240E /* OCR */;
+			targetProxy = CC7C05DD220AC5F70068240E /* PBXContainerItemProxy */;
+		};
+		CC7C0604220AC62B0068240E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC7C05BC220AC5F50068240E /* OCR */;
+			targetProxy = CC7C0603220AC62B0068240E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CC7C05C4220AC5F50068240E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC7C05C5220AC5F50068240E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CC7C05C9220AC5F60068240E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC7C05CA220AC5F60068240E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CC7C05E3220AC5F70068240E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CC7C05E4220AC5F70068240E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CC7C05E6220AC5F70068240E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = OCR/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ia.OCR;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CC7C05E7220AC5F70068240E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = OCR/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ia.OCR;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CC7C05E9220AC5F70068240E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = OCRTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ia.OCRTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OCR.app/OCR";
+			};
+			name = Debug;
+		};
+		CC7C05EA220AC5F70068240E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = OCRTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ia.OCRTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OCR.app/OCR";
+			};
+			name = Release;
+		};
+		CC7C05EC220AC5F70068240E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = OCRUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ia.OCRUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OCR;
+			};
+			name = Debug;
+		};
+		CC7C05ED220AC5F70068240E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = OCRUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ia.OCRUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OCR;
+			};
+			name = Release;
+		};
+		CC7C0613220AC62B0068240E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = OCRImageScannerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ia.OCRImageScannerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OCR.app/OCR";
+			};
+			name = Debug;
+		};
+		CC7C0614220AC62B0068240E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = OCRImageScannerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ia.OCRImageScannerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OCR.app/OCR";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC7C05B8220AC5F50068240E /* Build configuration list for PBXProject "OCR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC7C05E3220AC5F70068240E /* Debug */,
+				CC7C05E4220AC5F70068240E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC7C05E5220AC5F70068240E /* Build configuration list for PBXNativeTarget "OCR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC7C05E6220AC5F70068240E /* Debug */,
+				CC7C05E7220AC5F70068240E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC7C05E8220AC5F70068240E /* Build configuration list for PBXNativeTarget "OCRTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC7C05E9220AC5F70068240E /* Debug */,
+				CC7C05EA220AC5F70068240E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC7C05EB220AC5F70068240E /* Build configuration list for PBXNativeTarget "OCRUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC7C05EC220AC5F70068240E /* Debug */,
+				CC7C05ED220AC5F70068240E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC7C0612220AC62B0068240E /* Build configuration list for PBXNativeTarget "OCRImageScannerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC7C0613220AC62B0068240E /* Debug */,
+				CC7C0614220AC62B0068240E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CC7C05B5220AC5F50068240E /* Project object */;
+}
